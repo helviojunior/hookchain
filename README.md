@@ -1,1 +1,3 @@
-# hookchain
+# HookChain research
+
+To be released
