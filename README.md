@@ -12,13 +12,6 @@ This work not only challenges current conventions in cybersecurity but also shed
 
 By developing and exploring the HookChain  technique, this study significantly contributes to the body of knowledge in endpoint security, stimulating the development of more robust and adaptive solutions that can effectively address the ever-changing dynamics of digital threats. This work aspires to inspire deep reflection and advancement in the research and development of security technologies that are always several steps ahead of adversaries.
 
-## DEF CON 32
-
-The full research findings, results and a PoC will be unveiled at DEF CON 32. 
-
-**Note:** The code will be released at the same time here.
-
-**See you!**
 
 ## My public releases regarding HookChain:
 
