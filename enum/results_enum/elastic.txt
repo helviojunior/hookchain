@@ -1,0 +1,29 @@
+[+] Listing ntdll Nt/Zw functions
+------------------------------------------
+NtQuerySystemTime is hooked
+Mapped 478 functions
+
+[+] Listing loaded modules
+------------------------------------------
+C:\Users\M4v3r1ck\Desktop\hookchain_finder64.exe is loaded at 0x00007ff647010000.
+C: \Windows \System32\KERNEL32.DLL is loaded at 0x00007f95d0a0000.
+C: \Windows\System32\KERNELBASE.dl1 is loaded at 0x00007f95bd90000.
+C: \Windows\SYSTEM32\apphelp.dll is loaded at 0x00007ff959060000.
+C: \Windows\System32\msvert.dll is loaded at 0x00007ff95c450000.
+
+[+] Listing hooked modules
+------------------------------------------
+Checking ntdll.dll at KERNEL32.DLL IAT
+  +-- 0 hooked functions.
+
+Checking ntdll.dll at KERNELBASE.dll IAT
+  +-- 0 hooked functions.
+
+Checking ntdll.dll at apphelp.dll IAT
+  +-- 0 hooked functions.
+
+Checking ntdll.dll at msvert.dll IAT
+  +-- 0 hooked functions.
+
+------------------------------------------
+Completed

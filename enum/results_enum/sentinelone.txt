@@ -1,0 +1,445 @@
+[+] Listing ntdll Nt/Zw functions
+------------------------------------------
+NtCreateThreadEx is hooked
+NtCreateUserProcess is hooked
+NtDuplicateObject is hooked
+NtFreeVirtualMemory is hooked
+NtLoadDriver is hooked
+NtMapUserPhysicalPages is hooked
+NtMapViewOfSection is hooked
+NtOpenProcess is hooked
+NtQuerySystemInformation is hooked
+NtQuerySystemInformationEx is hooked
+NtQuerySystemTime is hooked
+NtQueueApcThread is hooked
+NtQueueApcThreadEx is hooked
+NtQueueApcThreadEx2 is hooked
+NtReadVirtualMemory is hooked
+NtResumeThread is hooked
+NtSetContextThread is hooked
+NtSetInformationProcess is hooked
+NtSetInformationThread is hooked
+NtTerminateProcess is hooked
+NtUnmapViewOfSection is hooked
+NtWriteVirtualMemory is hooked
+Mapped 478 functions
+
+[+] Listing loaded modules
+------------------------------------------
+C:\Users\M4v3r1ck\Desktop\hookchain_finder64.exe is loaded at 0x00007ff770d10000.
+C:\WINDOWS\SYSTEM32\ntd1l.dll is loaded at 0x0000015158f10000.
+C:\WINDOWS\System32\kern3l32.dll is loaded at 0x0000015159110000.
+C:\WINDOWS\SYSTEM32\ntdll.dll is loaded at 0x00007ff9e1290000.
+C:\WINDOWS\System32\KERNEL32.DLL is loaded at 0x00007ff9e0250000.
+C:\WINDOWS\System32\KERNELBASE.dll is loaded at 0x00007ff9de950000.
+C:\Program Files\SentinelOne\Sentinel Agent 23.3.3.264\InProcessClient64.dll is loaded at 0x00007ff9de4d0000.
+C:\WINDOWS\System32\ADVAPI32.dll is loaded at 0x00007ff9e0780000.
+C:\WINDOWS\System32\msvcrt.dll is loaded at 0x00007ff9df9a0000.
+C:\WINDOWS\System32\sechost.dll is loaded at 0x00007ff9e0530000.
+C:\WINDOWS\System32\RPCRT4.dll is loaded at 0x00007ff9df2d0000.
+C:\WINDOWS\System32\bcrypt.dll is loaded at 0x00007ff9decc0000.
+C:\WINDOWS\SYSTEM32\FLTLIB.DLL is loaded at 0x00007ff9de460000.
+C:\WINDOWS\System32\ucrtbase.dll is loaded at 0x00007ff9defb0000.
+
+[+] Listing hooked modules
+------------------------------------------
+Checking ntdll.dll at KERNEL32.DLL IAT
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtEnumerateKey is hooked to 0x00007ff9e132d610
+  |-- KERNEL32.DLL IAT to ntdll.dll of function *NtTerminateProcess is hooked to 0x00007ff9e132d550
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtMapUserPhysicalPagesScatter is hooked to 0x00007ff9e132d030
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtDeleteValueKey is hooked to 0x00007ff9e132eaa0
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtSetValueKey is hooked to 0x00007ff9e132dbc0
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtQueryInstallUILanguage is hooked to 0x00007ff9e132f9e0
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtQueryLicenseValue is hooked to 0x00007ff9e132fa40
+  |-- KERNEL32.DLL IAT to ntdll.dll of function *NtMapViewOfSection is hooked to 0x00007ff9e132d4d0
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtCreateSection is hooked to 0x00007ff9e132d910
+  |-- KERNEL32.DLL IAT to ntdll.dll of function *NtUnmapViewOfSection is hooked to 0x00007ff9e132d510
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtQueryInformationThread is hooked to 0x00007ff9e132d470
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtQueryEvent is hooked to 0x00007ff9e132da90
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtRaiseHardError is hooked to 0x00007ff9e132fce0
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtQueryVolumeInformationFile is hooked to 0x00007ff9e132d8f0
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtReplacePartitionUnit is hooked to 0x00007ff9e132fea0
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtQueryValueKey is hooked to 0x00007ff9e132d2b0
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtQueryInformationToken is hooked to 0x00007ff9e132d3f0
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtOpenProcessToken is hooked to 0x00007ff9e132f4e0
+  |-- KERNEL32.DLL IAT to ntdll.dll of function *NtSetInformationThread is hooked to 0x00007ff9e132d170
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtOpenThreadToken is hooked to 0x00007ff9e132d450
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtOpenKey is hooked to 0x00007ff9e132d210
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtIsSystemResumeAutomatic is hooked to 0x00007ff9e132f020
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtInitiatePowerAction is hooked to 0x00007ff9e132f000
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtWaitForSingleObject is hooked to 0x00007ff9e132d050
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtCreateEvent is hooked to 0x00007ff9e132d8d0
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtFsControlFile is hooked to 0x00007ff9e132d6f0
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtOpenFile is hooked to 0x00007ff9e132d630
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtClose is hooked to 0x00007ff9e132d1b0
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtQueryInformationFile is hooked to 0x00007ff9e132d1f0
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtSetInformationFile is hooked to 0x00007ff9e132d4b0
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtSetInformationDebugObject is hooked to 0x00007ff9e13302a0
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtSetSystemInformation is hooked to 0x00007ff9e1330540
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtQueryInformationProcess is hooked to 0x00007ff9e132d2f0
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtFindAtom is hooked to 0x00007ff9e132d250
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtQueryInformationAtom is hooked to 0x00007ff9e132f8c0
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtAddAtomEx is hooked to 0x00007ff9e132dce0
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtDeleteAtom is hooked to 0x00007ff9e132e9c0
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtFlushKey is hooked to 0x00007ff9e132ed00
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtCreateKey is hooked to 0x00007ff9e132d370
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtCreateFile is hooked to 0x00007ff9e132da70
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtCreateJobSet is hooked to 0x00007ff9e132e5a0
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtSetInformationJobObject is hooked to 0x00007ff9e13302e0
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtQueryInformationJobObject is hooked to 0x00007ff9e132f920
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtCreateJobObject is hooked to 0x00007ff9e132e580
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtAssignProcessToJobObject is hooked to 0x00007ff9e132e1a0
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtTerminateJobObject is hooked to 0x00007ff9e13307e0
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtOpenJobObject is hooked to 0x00007ff9e132f3c0
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtSetEaFile is hooked to 0x00007ff9e1330220
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtSetSecurityObject is hooked to 0x00007ff9e13304e0
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtQueryEaFile is hooked to 0x00007ff9e132f880
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtQuerySecurityObject is hooked to 0x00007ff9e132fb40
+  |-- KERNEL32.DLL IAT to ntdll.dll of function *NtSetInformationProcess is hooked to 0x00007ff9e132d350
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtQuerySection is hooked to 0x00007ff9e132d9f0
+  |-- KERNEL32.DLL IAT to ntdll.dll of function *NtFreeVirtualMemory is hooked to 0x00007ff9e132d390
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtWriteFile is hooked to 0x00007ff9e132d0d0
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtEnumerateValueKey is hooked to 0x00007ff9e132d230
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtUnlockFile is hooked to 0x00007ff9e1330940
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtReadFile is hooked to 0x00007ff9e132d090
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtLockFile is hooked to 0x00007ff9e132f120
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtAllocateVirtualMemory is hooked to 0x00007ff9e132d2d0
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtQueryVirtualMemory is hooked to 0x00007ff9e132d430
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtProtectVirtualMemory is hooked to 0x00007ff9e132d9d0
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtCreateMailslotFile is hooked to 0x00007ff9e132e620
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtQueryDirectoryFile is hooked to 0x00007ff9e132d670
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtQueryWnfStateData is hooked to 0x00007ff9e132fc40
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtPowerInformation is hooked to 0x00007ff9e132dba0
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtGetDevicePowerState is hooked to 0x00007ff9e132ee80
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtSetThreadExecutionState is hooked to 0x00007ff9e13305a0
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtSetSystemEnvironmentValueEx is hooked to 0x00007ff9e1330520
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtQuerySystemEnvironmentValueEx is hooked to 0x00007ff9e132fbe0
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtSetVolumeInformationFile is hooked to 0x00007ff9e1330640
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtDeviceIoControlFile is hooked to 0x00007ff9e132d0b0
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtQueryAttributesFile is hooked to 0x00007ff9e132d770
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtQueryFullAttributesFile is hooked to 0x00007ff9e132f8a0
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtSetTimerResolution is hooked to 0x00007ff9e1330600
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtQueryTimerResolution is hooked to 0x00007ff9e132fc20
+  |-- KERNEL32.DLL IAT to ntdll.dll of function *NtReadVirtualMemory is hooked to 0x00007ff9e132d7b0
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtWaitForMultipleObjects is hooked to 0x00007ff9e132db20
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtClearEvent is hooked to 0x00007ff9e132d790
+  |-- KERNEL32.DLL IAT to ntdll.dll of function NtApphelpCacheControl is hooked to 0x00007ff9e132d950
+  |-- KERNEL32.DLL IAT to ntdll.dll of function *NtQuerySystemInformation is hooked to 0x00007ff9e132d690
+  +-- 81 hooked functions.
+
+Checking ntdll.dll at KERNELBASE.dll IAT
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtQueryInformationFile is hooked to 0x00007ff9e132d1f0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtQuerySecurityObject is hooked to 0x00007ff9e132fb40
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtOpenFile is hooked to 0x00007ff9e132d630
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtQueryWnfStateData is hooked to 0x00007ff9e132fc40
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtSetInformationFile is hooked to 0x00007ff9e132d4b0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtFsControlFile is hooked to 0x00007ff9e132d6f0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtQueryVolumeInformationFile is hooked to 0x00007ff9e132d8f0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtCreateFile is hooked to 0x00007ff9e132da70
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtWaitForSingleObject is hooked to 0x00007ff9e132d050
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtNotifyChangeDirectoryFileEx is hooked to 0x00007ff9e132f2e0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtCopyFileChunk is hooked to 0x00007ff9e132e420
+  |-- KERNELBASE.dll IAT to ntdll.dll of function *NtQuerySystemInformation is hooked to 0x00007ff9e132d690
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtOpenKey is hooked to 0x00007ff9e132d210
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtQueryEaFile is hooked to 0x00007ff9e132f880
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtFlushBuffersFile is hooked to 0x00007ff9e132d930
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtCreateEvent is hooked to 0x00007ff9e132d8d0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtQueryValueKey is hooked to 0x00007ff9e132d2b0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtOpenMutant is hooked to 0x00007ff9e132f460
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtReleaseMutant is hooked to 0x00007ff9e132d3d0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtCreateKeyTransacted is hooked to 0x00007ff9e132e5c0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtCreateKey is hooked to 0x00007ff9e132d370
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtSetValueKey is hooked to 0x00007ff9e132dbc0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtQueryDirectoryFile is hooked to 0x00007ff9e132d670
+  |-- KERNELBASE.dll IAT to ntdll.dll of function *NtTerminateProcess is hooked to 0x00007ff9e132d550
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtSetDefaultLocale is hooked to 0x00007ff9e13301c0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtDeleteValueKey is hooked to 0x00007ff9e132eaa0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtEnumerateValueKey is hooked to 0x00007ff9e132d230
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtQueryInstallUILanguage is hooked to 0x00007ff9e132f9e0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtEnumerateKey is hooked to 0x00007ff9e132d610
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtGetNlsSectionPtr is hooked to 0x00007ff9e132ef00
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtDeleteKey is hooked to 0x00007ff9e132ea40
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtCreateSection is hooked to 0x00007ff9e132d910
+  |-- KERNELBASE.dll IAT to ntdll.dll of function *NtMapViewOfSection is hooked to 0x00007ff9e132d4d0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtQueryDefaultLocale is hooked to 0x00007ff9e132d270
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtNotifyChangeKey is hooked to 0x00007ff9e132f300
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtQueryInformationToken is hooked to 0x00007ff9e132d3f0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtQueryLicenseValue is hooked to 0x00007ff9e132fa40
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtOpenSymbolicLinkObject is hooked to 0x00007ff9e132f580
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtQuerySymbolicLinkObject is hooked to 0x00007ff9e132fba0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtQueryMultipleValueKey is hooked to 0x00007ff9e132fa60
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtOpenPrivateNamespace is hooked to 0x00007ff9e132f4c0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtDeletePrivateNamespace is hooked to 0x00007ff9e132ea80
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtCreatePrivateNamespace is hooked to 0x00007ff9e132e6e0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtClose is hooked to 0x00007ff9e132d1b0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtQueryInformationProcess is hooked to 0x00007ff9e132d2f0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function *NtDuplicateObject is hooked to 0x00007ff9e132d750
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtResetEvent is hooked to 0x00007ff9e132ff00
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtQueryEvent is hooked to 0x00007ff9e132da90
+  |-- KERNELBASE.dll IAT to ntdll.dll of function *NtSetInformationProcess is hooked to 0x00007ff9e132d350
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtQueryKey is hooked to 0x00007ff9e132d290
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtLoadKeyEx is hooked to 0x00007ff9e132f100
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtQueryVirtualMemory is hooked to 0x00007ff9e132d430
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtOpenProcessTokenEx is hooked to 0x00007ff9e132d5d0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtCreateWnfStateName is hooked to 0x00007ff9e132e940
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtDeleteWnfStateName is hooked to 0x00007ff9e132eae0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtSetSecurityObject is hooked to 0x00007ff9e13304e0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function *NtUnmapViewOfSection is hooked to 0x00007ff9e132d510
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtQuerySecurityAttributesToken is hooked to 0x00007ff9e132fb20
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtGetCachedSigningLevel is hooked to 0x00007ff9e132ede0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtDeviceIoControlFile is hooked to 0x00007ff9e132d0b0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtReadFile is hooked to 0x00007ff9e132d090
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtWaitForMultipleObjects is hooked to 0x00007ff9e132db20
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtSetSystemInformation is hooked to 0x00007ff9e1330540
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtYieldExecution is hooked to 0x00007ff9e132d890
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtDuplicateToken is hooked to 0x00007ff9e132d810
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtAllocateLocallyUniqueId is hooked to 0x00007ff9e132dde0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtAccessCheck is hooked to 0x00007ff9e132cfd0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtAccessCheckByType is hooked to 0x00007ff9e132dc20
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtAccessCheckByTypeResultList is hooked to 0x00007ff9e132dc40
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtOpenProcessToken is hooked to 0x00007ff9e132f4e0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtOpenThreadToken is hooked to 0x00007ff9e132d450
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtSetInformationToken is hooked to 0x00007ff9e1330360
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtAdjustPrivilegesToken is hooked to 0x00007ff9e132d7f0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtAdjustGroupsToken is hooked to 0x00007ff9e132dd40
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtPrivilegeCheck is hooked to 0x00007ff9e132f6c0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtAccessCheckAndAuditAlarm is hooked to 0x00007ff9e132d4f0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtAccessCheckByTypeAndAuditAlarm is hooked to 0x00007ff9e132daf0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtAccessCheckByTypeResultListAndAuditAlarm is hooked to 0x00007ff9e132dc60
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtAccessCheckByTypeResultListAndAuditAlarmByHandle is hooked to 0x00007ff9e132dc80
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtOpenObjectAuditAlarm is hooked to 0x00007ff9e132f480
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtPrivilegeObjectAuditAlarm is hooked to 0x00007ff9e132f6e0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtCloseObjectAuditAlarm is hooked to 0x00007ff9e132d730
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtDeleteObjectAuditAlarm is hooked to 0x00007ff9e132ea60
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtPrivilegedServiceAuditAlarm is hooked to 0x00007ff9e132f700
+  |-- KERNELBASE.dll IAT to ntdll.dll of function *NtSetInformationThread is hooked to 0x00007ff9e132d170
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtImpersonateAnonymousToken is hooked to 0x00007ff9e132ef60
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtFilterToken is hooked to 0x00007ff9e132ec60
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtSetCachedSigningLevel is hooked to 0x00007ff9e1330120
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtLockVirtualMemory is hooked to 0x00007ff9e132f180
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtUnlockVirtualMemory is hooked to 0x00007ff9e1330960
+  |-- KERNELBASE.dll IAT to ntdll.dll of function *NtReadVirtualMemory is hooked to 0x00007ff9e132d7b0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtProtectVirtualMemory is hooked to 0x00007ff9e132d9d0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function *NtWriteVirtualMemory is hooked to 0x00007ff9e132d710
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtAllocateVirtualMemory is hooked to 0x00007ff9e132d2d0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtAllocateVirtualMemoryEx is hooked to 0x00007ff9e132de80
+  |-- KERNELBASE.dll IAT to ntdll.dll of function *NtFreeVirtualMemory is hooked to 0x00007ff9e132d390
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtOpenEvent is hooked to 0x00007ff9e132d7d0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtGetWriteWatch is hooked to 0x00007ff9e132ef40
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtResetWriteWatch is hooked to 0x00007ff9e132ff20
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtSetInformationVirtualMemory is hooked to 0x00007ff9e13303c0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtAllocateUserPhysicalPages is hooked to 0x00007ff9e132de20
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtFreeUserPhysicalPages is hooked to 0x00007ff9e132ed80
+  |-- KERNELBASE.dll IAT to ntdll.dll of function *NtMapUserPhysicalPages is hooked to 0x00007ff9e132f240
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtOpenDirectoryObject is hooked to 0x00007ff9e132dad0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtQueryObject is hooked to 0x00007ff9e132d1d0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtCreateSymbolicLinkObject is hooked to 0x00007ff9e132e7e0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtCreateDirectoryObjectEx is hooked to 0x00007ff9e132e4c0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtLoadEnclaveData is hooked to 0x00007ff9e132f0a0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtTerminateEnclave is hooked to 0x00007ff9e13307c0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtCreateNamedPipeFile is hooked to 0x00007ff9e132e660
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtWriteFile is hooked to 0x00007ff9e132d0d0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtLockFile is hooked to 0x00007ff9e132f120
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtUnlockFile is hooked to 0x00007ff9e1330940
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtCancelIoFile is hooked to 0x00007ff9e132db60
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtCancelIoFileEx is hooked to 0x00007ff9e132e200
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtCancelSynchronousIoFile is hooked to 0x00007ff9e132e220
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtReadFileScatter is hooked to 0x00007ff9e132d590
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtWriteFileGather is hooked to 0x00007ff9e132d330
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtSetEvent is hooked to 0x00007ff9e132d190
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtClearEvent is hooked to 0x00007ff9e132d790
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtPulseEvent is hooked to 0x00007ff9e132f780
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtCreateSemaphore is hooked to 0x00007ff9e132e7c0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtOpenSemaphore is hooked to 0x00007ff9e132f540
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtReleaseSemaphore is hooked to 0x00007ff9e132d110
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtCreateMutant is hooked to 0x00007ff9e132e640
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtCreateTimer2 is hooked to 0x00007ff9e132e840
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtCreateTimer is hooked to 0x00007ff9e132e820
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtOpenTimer is hooked to 0x00007ff9e132f5c0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtSetTimerEx is hooked to 0x00007ff9e13305e0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtCancelTimer is hooked to 0x00007ff9e132dbe0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtSignalAndWaitForSingleObject is hooked to 0x00007ff9e13306c0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtDelayExecution is hooked to 0x00007ff9e132d650
+  |-- KERNELBASE.dll IAT to ntdll.dll of function *NtOpenProcess is hooked to 0x00007ff9e132d490
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtCompareObjects is hooked to 0x00007ff9e132e320
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtSetInformationObject is hooked to 0x00007ff9e132db40
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtSetSystemTime is hooked to 0x00007ff9e1330580
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtQueryAuxiliaryCounterFrequency is hooked to 0x00007ff9e132f7a0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtConvertBetweenAuxiliaryCounterAndPerformanceCounter is hooked to 0x00007ff9e132e400
+  |-- KERNELBASE.dll IAT to ntdll.dll of function *NtCreateThreadEx is hooked to 0x00007ff9e132e800
+  |-- KERNELBASE.dll IAT to ntdll.dll of function *NtResumeThread is hooked to 0x00007ff9e132da10
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtTerminateThread is hooked to 0x00007ff9e132da30
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtOpenThread is hooked to 0x00007ff9e132f5a0
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtQueryInformationThread is hooked to 0x00007ff9e132d470
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtSuspendThread is hooked to 0x00007ff9e1330780
+  |-- KERNELBASE.dll IAT to ntdll.dll of function NtGetContextThread is hooked to 0x00007ff9e132ee20
+  |-- KERNELBASE.dll IAT to ntdll.dll of function *NtSetContextThread is hooked to 0x00007ff9e1330160
+  |-- KERNELBASE.dll IAT to ntdll.dll of function *NtQueueApcThreadEx2 is hooked to 0x00007ff9e132fca0
+  +-- 147 hooked functions.
+
+Checking ntdll.dll at InProcessClient64.dll IAT
+  |-- InProcessClient64.dll IAT to ntdll.dll of function NtOpenSection is hooked to 0x00007ff9e132d6b0
+  |-- InProcessClient64.dll IAT to ntdll.dll of function *NtQueueApcThread is hooked to 0x00007ff9e132d870
+  |-- InProcessClient64.dll IAT to ntdll.dll of function NtQueryVirtualMemory is hooked to 0x00007ff9e132d430
+  |-- InProcessClient64.dll IAT to ntdll.dll of function NtQueryObject is hooked to 0x00007ff9e132d1d0
+  |-- InProcessClient64.dll IAT to ntdll.dll of function NtQuerySection is hooked to 0x00007ff9e132d9f0
+  |-- InProcessClient64.dll IAT to ntdll.dll of function *NtSetInformationThread is hooked to 0x00007ff9e132d170
+  |-- InProcessClient64.dll IAT to ntdll.dll of function NtQueryKey is hooked to 0x00007ff9e132d290
+  |-- InProcessClient64.dll IAT to ntdll.dll of function NtCreateFile is hooked to 0x00007ff9e132da70
+  |-- InProcessClient64.dll IAT to ntdll.dll of function NtQueryInformationProcess is hooked to 0x00007ff9e132d2f0
+  |-- InProcessClient64.dll IAT to ntdll.dll of function NtQueryInformationThread is hooked to 0x00007ff9e132d470
+  |-- InProcessClient64.dll IAT to ntdll.dll of function NtCallbackReturn is hooked to 0x00007ff9e132d070
+  |-- InProcessClient64.dll IAT to ntdll.dll of function NtGetNextThread is hooked to 0x00007ff9e132eee0
+  +-- 12 hooked functions.
+
+Checking ntdll.dll at ADVAPI32.dll IAT
+  |-- ADVAPI32.dll IAT to ntdll.dll of function NtQueryValueKey is hooked to 0x00007ff9e132d2b0
+  |-- ADVAPI32.dll IAT to ntdll.dll of function NtClose is hooked to 0x00007ff9e132d1b0
+  |-- ADVAPI32.dll IAT to ntdll.dll of function NtOpenThreadToken is hooked to 0x00007ff9e132d450
+  |-- ADVAPI32.dll IAT to ntdll.dll of function NtOpenProcessToken is hooked to 0x00007ff9e132f4e0
+  |-- ADVAPI32.dll IAT to ntdll.dll of function NtSetInformationToken is hooked to 0x00007ff9e1330360
+  |-- ADVAPI32.dll IAT to ntdll.dll of function NtDuplicateToken is hooked to 0x00007ff9e132d810
+  |-- ADVAPI32.dll IAT to ntdll.dll of function NtCompareTokens is hooked to 0x00007ff9e132e360
+  |-- ADVAPI32.dll IAT to ntdll.dll of function NtOpenFile is hooked to 0x00007ff9e132d630
+  |-- ADVAPI32.dll IAT to ntdll.dll of function NtQueryInformationProcess is hooked to 0x00007ff9e132d2f0
+  |-- ADVAPI32.dll IAT to ntdll.dll of function NtQueryKey is hooked to 0x00007ff9e132d290
+  |-- ADVAPI32.dll IAT to ntdll.dll of function NtDeviceIoControlFile is hooked to 0x00007ff9e132d0b0
+  |-- ADVAPI32.dll IAT to ntdll.dll of function *NtQuerySystemInformation is hooked to 0x00007ff9e132d690
+  |-- ADVAPI32.dll IAT to ntdll.dll of function NtCreateKey is hooked to 0x00007ff9e132d370
+  |-- ADVAPI32.dll IAT to ntdll.dll of function NtSetValueKey is hooked to 0x00007ff9e132dbc0
+  |-- ADVAPI32.dll IAT to ntdll.dll of function NtDeleteKey is hooked to 0x00007ff9e132ea40
+  |-- ADVAPI32.dll IAT to ntdll.dll of function NtEnumerateKey is hooked to 0x00007ff9e132d610
+  |-- ADVAPI32.dll IAT to ntdll.dll of function NtQueryVolumeInformationFile is hooked to 0x00007ff9e132d8f0
+  |-- ADVAPI32.dll IAT to ntdll.dll of function NtOpenSymbolicLinkObject is hooked to 0x00007ff9e132f580
+  |-- ADVAPI32.dll IAT to ntdll.dll of function NtQuerySymbolicLinkObject is hooked to 0x00007ff9e132fba0
+  |-- ADVAPI32.dll IAT to ntdll.dll of function NtQueryInformationFile is hooked to 0x00007ff9e132d1f0
+  |-- ADVAPI32.dll IAT to ntdll.dll of function NtTraceControl is hooked to 0x00007ff9e1330860
+  |-- ADVAPI32.dll IAT to ntdll.dll of function NtRenameKey is hooked to 0x00007ff9e132fe40
+  |-- ADVAPI32.dll IAT to ntdll.dll of function *NtSetInformationThread is hooked to 0x00007ff9e132d170
+  |-- ADVAPI32.dll IAT to ntdll.dll of function NtOpenKey is hooked to 0x00007ff9e132d210
+  |-- ADVAPI32.dll IAT to ntdll.dll of function *NtQuerySystemTime is hooked to 0x00007ff9e132db10
+  |-- ADVAPI32.dll IAT to ntdll.dll of function NtWaitForSingleObject is hooked to 0x00007ff9e132d050
+  |-- ADVAPI32.dll IAT to ntdll.dll of function NtQueryInformationThread is hooked to 0x00007ff9e132d470
+  |-- ADVAPI32.dll IAT to ntdll.dll of function NtQuerySecurityObject is hooked to 0x00007ff9e132fb40
+  |-- ADVAPI32.dll IAT to ntdll.dll of function NtQueryPerformanceCounter is hooked to 0x00007ff9e132d5f0
+  |-- ADVAPI32.dll IAT to ntdll.dll of function NtCreateMutant is hooked to 0x00007ff9e132e640
+  |-- ADVAPI32.dll IAT to ntdll.dll of function NtOpenPrivateNamespace is hooked to 0x00007ff9e132f4c0
+  |-- ADVAPI32.dll IAT to ntdll.dll of function NtCreatePrivateNamespace is hooked to 0x00007ff9e132e6e0
+  |-- ADVAPI32.dll IAT to ntdll.dll of function NtWaitForMultipleObjects is hooked to 0x00007ff9e132db20
+  |-- ADVAPI32.dll IAT to ntdll.dll of function NtCreateFile is hooked to 0x00007ff9e132da70
+  |-- ADVAPI32.dll IAT to ntdll.dll of function NtWriteFile is hooked to 0x00007ff9e132d0d0
+  |-- ADVAPI32.dll IAT to ntdll.dll of function NtReadFile is hooked to 0x00007ff9e132d090
+  |-- ADVAPI32.dll IAT to ntdll.dll of function NtAlpcQueryInformation is hooked to 0x00007ff9e132e0e0
+  |-- ADVAPI32.dll IAT to ntdll.dll of function NtQueryObject is hooked to 0x00007ff9e132d1d0
+  |-- ADVAPI32.dll IAT to ntdll.dll of function NtQueryMutant is hooked to 0x00007ff9e132fa80
+  |-- ADVAPI32.dll IAT to ntdll.dll of function NtReplaceKey is hooked to 0x00007ff9e132fe80
+  |-- ADVAPI32.dll IAT to ntdll.dll of function NtSaveKey is hooked to 0x00007ff9e1330040
+  |-- ADVAPI32.dll IAT to ntdll.dll of function NtSaveMergedKeys is hooked to 0x00007ff9e1330080
+  |-- ADVAPI32.dll IAT to ntdll.dll of function NtQueryInformationToken is hooked to 0x00007ff9e132d3f0
+  |-- ADVAPI32.dll IAT to ntdll.dll of function NtSetSystemInformation is hooked to 0x00007ff9e1330540
+  |-- ADVAPI32.dll IAT to ntdll.dll of function NtOpenKeyEx is hooked to 0x00007ff9e132f3e0
+  |-- ADVAPI32.dll IAT to ntdll.dll of function NtSetInformationKey is hooked to 0x00007ff9e1330300
+  +-- 46 hooked functions.
+
+Checking ntdll.dll at msvcrt.dll IAT
+  +-- 0 hooked functions.
+
+Checking ntdll.dll at sechost.dll IAT
+  |-- sechost.dll IAT to ntdll.dll of function NtOpenProcessTokenEx is hooked to 0x00007ff9e132d5d0
+  |-- sechost.dll IAT to ntdll.dll of function NtOpenKey is hooked to 0x00007ff9e132d210
+  |-- sechost.dll IAT to ntdll.dll of function NtQueryValueKey is hooked to 0x00007ff9e132d2b0
+  |-- sechost.dll IAT to ntdll.dll of function *NtSetInformationThread is hooked to 0x00007ff9e132d170
+  |-- sechost.dll IAT to ntdll.dll of function NtQueryInformationThread is hooked to 0x00007ff9e132d470
+  |-- sechost.dll IAT to ntdll.dll of function *NtQueueApcThread is hooked to 0x00007ff9e132d870
+  |-- sechost.dll IAT to ntdll.dll of function NtQueryInformationFile is hooked to 0x00007ff9e132d1f0
+  |-- sechost.dll IAT to ntdll.dll of function NtCancelIoFile is hooked to 0x00007ff9e132db60
+  |-- sechost.dll IAT to ntdll.dll of function NtTraceControl is hooked to 0x00007ff9e1330860
+  |-- sechost.dll IAT to ntdll.dll of function NtSetSystemInformation is hooked to 0x00007ff9e1330540
+  |-- sechost.dll IAT to ntdll.dll of function NtSetIntervalProfile is hooked to 0x00007ff9e1330400
+  |-- sechost.dll IAT to ntdll.dll of function *NtQuerySystemInformation is hooked to 0x00007ff9e132d690
+  |-- sechost.dll IAT to ntdll.dll of function NtQueryIntervalProfile is hooked to 0x00007ff9e132fa00
+  |-- sechost.dll IAT to ntdll.dll of function NtWaitForMultipleObjects is hooked to 0x00007ff9e132db20
+  |-- sechost.dll IAT to ntdll.dll of function NtQueryPerformanceCounter is hooked to 0x00007ff9e132d5f0
+  |-- sechost.dll IAT to ntdll.dll of function NtSetEvent is hooked to 0x00007ff9e132d190
+  |-- sechost.dll IAT to ntdll.dll of function *NtTerminateProcess is hooked to 0x00007ff9e132d550
+  |-- sechost.dll IAT to ntdll.dll of function NtOpenThreadToken is hooked to 0x00007ff9e132d450
+  |-- sechost.dll IAT to ntdll.dll of function NtClose is hooked to 0x00007ff9e132d1b0
+  |-- sechost.dll IAT to ntdll.dll of function NtQueryInformationToken is hooked to 0x00007ff9e132d3f0
+  |-- sechost.dll IAT to ntdll.dll of function NtOpenProcessToken is hooked to 0x00007ff9e132f4e0
+  +-- 21 hooked functions.
+
+Checking ntdll.dll at RPCRT4.dll IAT
+  |-- RPCRT4.dll IAT to ntdll.dll of function NtQueryValueKey is hooked to 0x00007ff9e132d2b0
+  |-- RPCRT4.dll IAT to ntdll.dll of function NtOpenKey is hooked to 0x00007ff9e132d210
+  |-- RPCRT4.dll IAT to ntdll.dll of function NtWaitForAlertByThreadId is hooked to 0x00007ff9e1330a00
+  |-- RPCRT4.dll IAT to ntdll.dll of function NtAlertThreadByThreadId is hooked to 0x00007ff9e132ddc0
+  |-- RPCRT4.dll IAT to ntdll.dll of function NtAllocateUuids is hooked to 0x00007ff9e132de60
+  |-- RPCRT4.dll IAT to ntdll.dll of function NtAdjustPrivilegesToken is hooked to 0x00007ff9e132d7f0
+  |-- RPCRT4.dll IAT to ntdll.dll of function *NtQuerySystemTime is hooked to 0x00007ff9e132db10
+  |-- RPCRT4.dll IAT to ntdll.dll of function NtPrivilegeCheck is hooked to 0x00007ff9e132f6c0
+  |-- RPCRT4.dll IAT to ntdll.dll of function NtAlpcCreateResourceReserve is hooked to 0x00007ff9e132df60
+  |-- RPCRT4.dll IAT to ntdll.dll of function NtAlpcCancelMessage is hooked to 0x00007ff9e132dec0
+  |-- RPCRT4.dll IAT to ntdll.dll of function NtAlpcDeleteSecurityContext is hooked to 0x00007ff9e132e020
+  |-- RPCRT4.dll IAT to ntdll.dll of function NtAlpcCreateSecurityContext is hooked to 0x00007ff9e132dfa0
+  |-- RPCRT4.dll IAT to ntdll.dll of function NtAlpcConnectPortEx is hooked to 0x00007ff9e132df00
+  |-- RPCRT4.dll IAT to ntdll.dll of function NtAlpcConnectPort is hooked to 0x00007ff9e132dee0
+  |-- RPCRT4.dll IAT to ntdll.dll of function NtCreateSection is hooked to 0x00007ff9e132d910
+  |-- RPCRT4.dll IAT to ntdll.dll of function NtDuplicateToken is hooked to 0x00007ff9e132d810
+  |-- RPCRT4.dll IAT to ntdll.dll of function NtImpersonateAnonymousToken is hooked to 0x00007ff9e132ef60
+  |-- RPCRT4.dll IAT to ntdll.dll of function NtAlpcCreateSectionView is hooked to 0x00007ff9e132df80
+  |-- RPCRT4.dll IAT to ntdll.dll of function NtAlpcCreatePortSection is hooked to 0x00007ff9e132df40
+  |-- RPCRT4.dll IAT to ntdll.dll of function NtAllocateReserveObject is hooked to 0x00007ff9e132de00
+  |-- RPCRT4.dll IAT to ntdll.dll of function NtSetIoCompletionEx is hooked to 0x00007ff9e1330440
+  |-- RPCRT4.dll IAT to ntdll.dll of function *NtQueueApcThreadEx is hooked to 0x00007ff9e132fc80
+  |-- RPCRT4.dll IAT to ntdll.dll of function NtOpenThreadToken is hooked to 0x00007ff9e132d450
+  |-- RPCRT4.dll IAT to ntdll.dll of function NtDeleteWnfStateName is hooked to 0x00007ff9e132eae0
+  |-- RPCRT4.dll IAT to ntdll.dll of function NtCreateWnfStateName is hooked to 0x00007ff9e132e940
+  |-- RPCRT4.dll IAT to ntdll.dll of function NtQuerySecurityObject is hooked to 0x00007ff9e132fb40
+  |-- RPCRT4.dll IAT to ntdll.dll of function NtOpenDirectoryObject is hooked to 0x00007ff9e132dad0
+  |-- RPCRT4.dll IAT to ntdll.dll of function NtDelayExecution is hooked to 0x00007ff9e132d650
+  |-- RPCRT4.dll IAT to ntdll.dll of function NtWaitForSingleObject is hooked to 0x00007ff9e132d050
+  |-- RPCRT4.dll IAT to ntdll.dll of function NtFsControlFile is hooked to 0x00007ff9e132d6f0
+  |-- RPCRT4.dll IAT to ntdll.dll of function NtCreateEvent is hooked to 0x00007ff9e132d8d0
+  |-- RPCRT4.dll IAT to ntdll.dll of function NtQueryVolumeInformationFile is hooked to 0x00007ff9e132d8f0
+  |-- RPCRT4.dll IAT to ntdll.dll of function NtAlpcCreatePort is hooked to 0x00007ff9e132df20
+  |-- RPCRT4.dll IAT to ntdll.dll of function NtAlpcQueryInformation is hooked to 0x00007ff9e132e0e0
+  |-- RPCRT4.dll IAT to ntdll.dll of function NtAlpcSendWaitReceivePort is hooked to 0x00007ff9e132e140
+  |-- RPCRT4.dll IAT to ntdll.dll of function NtAlpcAcceptConnectPort is hooked to 0x00007ff9e132dea0
+  |-- RPCRT4.dll IAT to ntdll.dll of function NtAlpcDeletePortSection is hooked to 0x00007ff9e132dfc0
+  |-- RPCRT4.dll IAT to ntdll.dll of function NtAlpcDeleteSectionView is hooked to 0x00007ff9e132e000
+  |-- RPCRT4.dll IAT to ntdll.dll of function NtAlpcDisconnectPort is hooked to 0x00007ff9e132e040
+  |-- RPCRT4.dll IAT to ntdll.dll of function NtAlpcQueryInformationMessage is hooked to 0x00007ff9e132e100
+  |-- RPCRT4.dll IAT to ntdll.dll of function NtClose is hooked to 0x00007ff9e132d1b0
+  |-- RPCRT4.dll IAT to ntdll.dll of function NtCreateFile is hooked to 0x00007ff9e132da70
+  |-- RPCRT4.dll IAT to ntdll.dll of function NtCreateNamedPipeFile is hooked to 0x00007ff9e132e660
+  |-- RPCRT4.dll IAT to ntdll.dll of function NtWriteFile is hooked to 0x00007ff9e132d0d0
+  |-- RPCRT4.dll IAT to ntdll.dll of function NtAlpcSetInformation is hooked to 0x00007ff9e132e160
+  |-- RPCRT4.dll IAT to ntdll.dll of function NtReadFile is hooked to 0x00007ff9e132d090
+  |-- RPCRT4.dll IAT to ntdll.dll of function *NtQuerySystemInformation is hooked to 0x00007ff9e132d690
+  |-- RPCRT4.dll IAT to ntdll.dll of function NtSetInformationFile is hooked to 0x00007ff9e132d4b0
+  |-- RPCRT4.dll IAT to ntdll.dll of function *NtSetInformationThread is hooked to 0x00007ff9e132d170
+  |-- RPCRT4.dll IAT to ntdll.dll of function NtAlpcOpenSenderThread is hooked to 0x00007ff9e132e0c0
+  |-- RPCRT4.dll IAT to ntdll.dll of function NtAlpcOpenSenderProcess is hooked to 0x00007ff9e132e0a0
+  |-- RPCRT4.dll IAT to ntdll.dll of function NtAlpcImpersonateClientContainerOfPort is hooked to 0x00007ff9e132e060
+  |-- RPCRT4.dll IAT to ntdll.dll of function NtAlpcImpersonateClientOfPort is hooked to 0x00007ff9e132e080
+  +-- 53 hooked functions.
+
+Checking ntdll.dll at bcrypt.dll IAT
+  |-- bcrypt.dll IAT to ntdll.dll of function NtOpenKey is hooked to 0x00007ff9e132d210
+  |-- bcrypt.dll IAT to ntdll.dll of function NtQueryValueKey is hooked to 0x00007ff9e132d2b0
+  |-- bcrypt.dll IAT to ntdll.dll of function NtQueryInformationProcess is hooked to 0x00007ff9e132d2f0
+  |-- bcrypt.dll IAT to ntdll.dll of function NtClose is hooked to 0x00007ff9e132d1b0
+  |-- bcrypt.dll IAT to ntdll.dll of function NtDeviceIoControlFile is hooked to 0x00007ff9e132d0b0
+  |-- bcrypt.dll IAT to ntdll.dll of function NtOpenFile is hooked to 0x00007ff9e132d630
+  |-- bcrypt.dll IAT to ntdll.dll of function *NtTerminateProcess is hooked to 0x00007ff9e132d550
+  +-- 7 hooked functions.
+
+Checking ntdll.dll at FLTLIB.DLL IAT
+  |-- FLTLIB.DLL IAT to ntdll.dll of function NtCreateFile is hooked to 0x00007ff9e132da70
+  |-- FLTLIB.DLL IAT to ntdll.dll of function NtDeviceIoControlFile is hooked to 0x00007ff9e132d0b0
+  |-- FLTLIB.DLL IAT to ntdll.dll of function NtWaitForSingleObject is hooked to 0x00007ff9e132d050
+  |-- FLTLIB.DLL IAT to ntdll.dll of function NtFsControlFile is hooked to 0x00007ff9e132d6f0
+  +-- 4 hooked functions.
+
+------------------------------------------
+Completed

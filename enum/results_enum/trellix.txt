@@ -1,0 +1,109 @@
+[+] Listing ntdll Nt/Zw functions
+------------------------------------------
+NtAlertResumeThread is hooked
+NtCreateThreadEx is hooked
+NtDuplicateToken is hooked
+NtGetContextThread is hooked
+NtMapViewOfSection is hooked
+NtQuerySystemTime is hooked
+NtQueueApcThread is hooked
+NtResumeThread is hooked
+NtSetContextThread is hooked
+NtUnmapViewOfSection is hooked
+NtWriteVirtualMemory is hooked
+Mapped 478 functions
+
+[+] Listing loaded modules
+------------------------------------------
+C:\Users\M4v3r1ck\Desktop\hookchain_finder64.exe is loaded at 0x00007ff60b2d0000.
+C:\WINDOWS\SYSTEM32\ntdll.dll is loaded at 0x00007ffb23190000.
+C:\WINDOWS\System32\KERNEL32.DLL is loaded at 0x00007ffb211e0000.
+C:\WINDOWS\System32\KERNELBASE.dll is loaded at 0x00007ffb20cf0000.
+C:\WINDOWS\SYSTEM32\apphelp.dll is loaded at 0x00007ffb1e190000.
+C:\WINDOWS\System32\msvcrt.dll is loaded at 0x00007ffb21750000.
+C:\Program Files\Common Files\McAfee\SystemCore\mfehcinj.dll is loaded at 0x00007ffaeb7a0000.
+C:\WINDOWS\System32\RPCRT4.dll is loaded at 0x00007ffb22dc0000.
+C:\WINDOWS\System32\ADVAPI32.dll is loaded at 0x00007ffb21c00000.
+C:\WINDOWS\System32\sechost.dll is loaded at 0x00007ffb212a0000.
+C:\WINDOWS\System32\bcrypt.dll is loaded at 0x00007ffb21160000.
+C:\WINDOWS\System32\WINTRUST.dll is loaded at 0x00007ffb20ff0000.
+C:\WINDOWS\System32\CRYPT32.dll is loaded at 0x00007ffb20ad0000.
+C:\WINDOWS\System32\ucrtbase.dll is loaded at 0x00007ffb21060000.
+C:\WINDOWS\SYSTEM32\MSASN1.dll is loaded at 0x00007ffb20350000.
+C:\Program Files\Common Files\McAfee\SystemCore\mfehcthe.dll is loaded at 0x00007ffaeb920000.
+C:\Program Files\McAfee\MAR\mvcairo_x64.dll is loaded at 0x00007ffaeb8a0000.
+C:\WINDOWS\System32\USER32.dll is loaded at 0x00007ffb213a0000.
+C:\WINDOWS\System32\win32u.dll is loaded at 0x00007ffb20cc0000.
+C:\WINDOWS\System32\GDI32.dll is loaded at 0x00007ffb221c0000.
+C:\WINDOWS\System32\gdi32full.dll is loaded at 0x00007ffb209b0000.
+C:\WINDOWS\System32\msvcp_win.dll is loaded at 0x00007ffb20860000.
+C:\WINDOWS\System32\ole32.dll is loaded at 0x00007ffb215f0000.
+C:\WINDOWS\System32\combase.dll is loaded at 0x00007ffb21870000.
+C:\WINDOWS\System32\OLEAUT32.dll is loaded at 0x00007ffb21fc0000.
+C:\WINDOWS\System32\IMM32.DLL is loaded at 0x00007ffb21bd0000.
+C:\Program Files\McAfee\Endpoint Security\Adaptive Threat Protection\mfedeeprem64.dll is loaded at 0x00007ffb1e0b0000.
+
+[+] Listing hooked modules
+------------------------------------------
+Checking ntdll.dll at KERNEL32.DLL IAT
+  +-- 0 hooked functions.
+
+Checking ntdll.dll at KERNELBASE.dll IAT
+  +-- 0 hooked functions.
+
+Checking ntdll.dll at apphelp.dll IAT
+  +-- 0 hooked functions.
+
+Checking ntdll.dll at msvcrt.dll IAT
+  +-- 0 hooked functions.
+
+Checking ntdll.dll at mfehcinj.dll IAT
+  +-- 0 hooked functions.
+
+Checking ntdll.dll at RPCRT4.dll IAT
+  +-- 0 hooked functions.
+
+Checking ntdll.dll at ADVAPI32.dll IAT
+  +-- 0 hooked functions.
+
+Checking ntdll.dll at sechost.dll IAT
+  +-- 0 hooked functions.
+
+Checking ntdll.dll at bcrypt.dll IAT
+  +-- 0 hooked functions.
+
+Checking ntdll.dll at WINTRUST.dll IAT
+  +-- 0 hooked functions.
+
+Checking ntdll.dll at CRYPT32.dll IAT
+  +-- 0 hooked functions.
+
+Checking ntdll.dll at MSASN1.dll IAT
+  +-- 0 hooked functions.
+
+Checking ntdll.dll at mfehcthe.dll IAT
+  +-- 0 hooked functions.
+
+Checking ntdll.dll at USER32.dll IAT
+  +-- 0 hooked functions.
+
+Checking ntdll.dll at GDI32.dll IAT
+  +-- 0 hooked functions.
+
+Checking ntdll.dll at gdi32full.dll IAT
+  +-- 0 hooked functions.
+
+Checking ntdll.dll at ole32.dll IAT
+  +-- 0 hooked functions.
+
+Checking ntdll.dll at combase.dll IAT
+  +-- 0 hooked functions.
+
+Checking ntdll.dll at OLEAUT32.dll IAT
+  +-- 0 hooked functions.
+
+Checking ntdll.dll at IMM32.DLL IAT
+  +-- 0 hooked functions.
+
+------------------------------------------
+Completed
