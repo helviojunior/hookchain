@@ -12,6 +12,13 @@ This work not only challenges current conventions in cybersecurity but also shed
 
 By developing and exploring the HookChain  technique, this study significantly contributes to the body of knowledge in endpoint security, stimulating the development of more robust and adaptive solutions that can effectively address the ever-changing dynamics of digital threats. This work aspires to inspire deep reflection and advancement in the research and development of security technologies that are always several steps ahead of adversaries.
 
+## White paper
+
+The full english research white paper will be published soon.
+
+## Telegram
+
+Telegram contact: [https://t.me/helviojunior](https://t.me/helviojunior)
 
 ## My public releases regarding HookChain:
 
