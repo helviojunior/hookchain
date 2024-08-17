@@ -19,6 +19,7 @@ The full english research white paper will be published soon.
 ## Telegram
 
 LinkedIn contact: [https://t.me/helviojunior](https://t.me/helviojunior)
+
 Telegram contact: [https://t.me/helviojunior](https://t.me/helviojunior)
 
 ## My public releases regarding HookChain:
