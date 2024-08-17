@@ -1,6 +1,6 @@
 # Hookchain
 
-## Abstract
+## Abstract - EN
 
 In the current digital security ecosystem, where threats evolve rapidly and with complexity, companies developing Endpoint Detection and Response (EDR) solutions are in constant search for innovations that not only keep up but also anticipate emerging attack vectors.
 
@@ -11,6 +11,22 @@ Through a precise combination of IAT Hooking techniques, dynamic SSN resolution,
 This work not only challenges current conventions in cybersecurity but also sheds light on a promising path for future protection strategies, leveraging the understanding that continuous evolution is key to the effectiveness of digital security. 
 
 By developing and exploring the HookChain  technique, this study significantly contributes to the body of knowledge in endpoint security, stimulating the development of more robust and adaptive solutions that can effectively address the ever-changing dynamics of digital threats. This work aspires to inspire deep reflection and advancement in the research and development of security technologies that are always several steps ahead of adversaries.
+
+## Abstract - PT-BR
+
+No atual ecossistema de segurança digital, onde ameaças evoluem com rapidez e complexidade, as empresas desenvolvedoras de soluções de detecção e resposta em endpoints (EDR) estão em constante busca por inovações que não apenas acompanhem, mas antecipem os vetores de ataque emergentes. Nesse contexto, este artigo introduz o HookChain, um olhar sob outro ponto de vista de técnicas amplamente conhecidas, porém quando combinadas proporciona uma camada adicional de evasão sofisticada frente aos tradicionais sistemas EDR. 
+
+Através de uma combinação precisa de técnicas de IAT Hooking, resolução dinâmica de SSNs e chamadas de sistema indiretas, o HookChain redireciona o fluxo de execução dos subsistemas do Windows de maneira que permanece invisível aos olhares vigilantes dos EDRs que atuam somente na Ntdll.dll, sem necessitar de alterações no código-fonte das aplicações e malwares envolvidos. 
+
+Este trabalho não apenas desafia as convenções atuais em segurança cibernética, mas também ilumina um caminho promissor para futuras estratégias de proteção, alavancando a compreensão de que a evolução contínua é fundamental para a eficácia da segurança digital. 
+
+Ao desenvolver e explorar a técnica HookChain, este estudo contribui significativamente para o corpo de conhecimento em segurança de endpoints, estimulando o desenvolvimento de soluções mais robustas e adaptativas que possam efetivamente enfrentar a dinâmica sempre em transformação das ameaças digitais. Este trabalho aspira a inspirar uma reflexão profunda e o avanço na pesquisa e desenvolvimento de tecnologias de segurança que estejam sempre vários passos à frente dos adversários.
+
+## ACM Reference Format
+
+```
+Helvio Carvalho Junior. 2024. HookChain: A new perspective for Bypassing EDR Solutions. Curitiba, PR, BRAZIL. https://arxiv.org/abs/2404.16856
+```
 
 ## White paper
 
