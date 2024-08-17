@@ -18,7 +18,7 @@ The full english research white paper will be published soon.
 
 ## Telegram
 
-LinkedIn contact: [https://t.me/helviojunior](https://t.me/helviojunior)
+LinkedIn contact: [https://www.linkedin.com/in/helviojunior/](https://www.linkedin.com/in/helviojunior/)
 
 Telegram contact: [https://t.me/helviojunior](https://t.me/helviojunior)
 
