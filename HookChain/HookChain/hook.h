@@ -59,7 +59,7 @@ typedef struct _NAME_LIST
 static PVOID GetNextSyscallInstruction(_In_ PVOID pStartAddr);
 static DWORD64 GetSSN(_In_ PVOID pAddress);
 FARPROC HGetModuleHandleA(LPCSTR imageName, _In_ BOOLEAN forceLoad);
-FARPROC HGetProcAddress(LPCSTR imageName, LPCSTR procName);
+FARPROC HGetProcAddress(FARPROC imageBase, LPCSTR procName, _In_opt_ DWORD64 procHash);
 FARPROC HGetProcAddress2(LPCSTR imageName, LPCSTR procName);
 FARPROC HGetProcAddress3(FARPROC imageBase, LPCSTR procName);
 BOOL UnhookAll(_In_ HANDLE hProcess, _In_ LPCSTR imageName, _In_ BOOLEAN force);

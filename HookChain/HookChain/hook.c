@@ -937,7 +937,7 @@ PVOID RtlAllocateHeapStub(_In_ PVOID  HeapHandle, _In_ ULONG  Flags, _In_ SIZE_T
         return addr;
     }
 
-    PVOID(*AH)(void) = pRtlAllocateHeap;
+    FARPROC HGetProcAddress(FARPROC imageBase, LPCSTR procName, _In_opt_ DWORD64 procHash)
     return AH(HeapHandle, Flags, Size);
 }
 
