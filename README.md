@@ -28,6 +28,11 @@ Ao desenvolver e explorar a técnica HookChain, este estudo contribui significat
 Helvio Carvalho Junior. 2024. HookChain: A new perspective for Bypassing EDR Solutions. Curitiba, PR, BRAZIL. https://arxiv.org/abs/2404.16856
 ```
 
+## HookChain Talks
+
+- [DEFCON 32](https://youtu.be/AfDXAdLJ7dU?si=Q5BTLWIfeSRUwaK3)
+- [MindTheSec 2024](https://www.youtube.com/watch?v=EM5xejYhl1s)
+
 ## White paper
 
 - [English v1.5](https://github.com/helviojunior/hookchain/blob/main/HookChain_en_v1.5.pdf)
