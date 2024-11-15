@@ -30,6 +30,7 @@ Helvio Carvalho Junior. 2024. HookChain: A new perspective for Bypassing EDR Sol
 
 ## HookChain Talks
 
+- [Sector/BlackHat Toronto](https://youtu.be/Rxw0DFkMeQ8)
 - [DEFCON 32](https://youtu.be/AfDXAdLJ7dU?si=Q5BTLWIfeSRUwaK3)
 - [MindTheSec 2024](https://www.youtube.com/watch?v=EM5xejYhl1s)
 
