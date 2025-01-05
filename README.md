@@ -37,6 +37,7 @@ Helvio Carvalho Junior. 2024. HookChain: A new perspective for Bypassing EDR Sol
 ## White paper
 
 - [English v1.5](https://github.com/helviojunior/hookchain/blob/main/HookChain_en_v1.5.pdf)
+- [English arXiv:2404.16856](https://arxiv.org/abs/2404.16856)
 - [Portugues v1.5](https://github.com/helviojunior/hookchain/blob/main/HookChain_pt_v1.5.pdf)
 
 ## Contact
